@@ -382,13 +382,13 @@
 	      <configuration>
 	        <artifacts> 
 	          <artifact> 
-        	    <file>target/classes/db/mysql/initDB.sql</file>
-	            <type>sql</type>
-        	    <classifier>initDB</classifier>
+        	    	<file>target/classes/db/mysql/initDB.sql</file>
+	            	<type>sql</type>
+        	    	<classifier>initDB</classifier>
 	          </artifact>
         	  <artifact>
-	            <file>target/classes/db/mysql/populateDB.sql</file>   
-        	    <type>sql</type>
+	            	<file>target/classes/db/mysql/populateDB.sql</file>   
+        	    	<type>sql</type>
 	            <classifier>populateDB</classifier>
         	  </artifact>
 	        </artifacts>
