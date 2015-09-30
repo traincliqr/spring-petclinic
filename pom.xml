@@ -375,7 +375,7 @@
   <executions>
     <execution>
       <id>attach-artifacts</id>
-      <phase>package</phase>
+      <phase>install</phase>
       <goals> 
         <goal>attach-artifact</goal>
       </goals> 
@@ -389,7 +389,7 @@
           <artifact>
             <file>target/classes/db/mysql/populateDB.sql</file>   
             <type>sql</type>
-            <classifier>create</classifier>
+            <classifier>doc</classifier>
           </artifact>
         </artifacts>
       </configuration>
