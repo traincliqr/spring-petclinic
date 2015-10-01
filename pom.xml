@@ -9,7 +9,7 @@
 	<packaging>war</packaging>
    
 	<properties>
-
+ 
 		<build.number>SNAPSHOT</build.number>
 
 		<!-- Generic properties   -->
