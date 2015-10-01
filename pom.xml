@@ -264,6 +264,7 @@
 
 	<!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
 	<build>
+		<finalName>${project.artifactId}-${project.version}-${timestamp}</finalName>
 		<defaultGoal>install</defaultGoal>
 		<testResources>
 		  <testResource>
